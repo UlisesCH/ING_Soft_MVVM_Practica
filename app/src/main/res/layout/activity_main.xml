@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModelUser"
-            type="com.example.mvvm_practica.ViewModels.UserViewModel" />
+            type="com.example.mvvm_practica.viewModels.UserViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

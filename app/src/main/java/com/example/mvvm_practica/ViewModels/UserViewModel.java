@@ -1,4 +1,4 @@
-package com.example.mvvm_practica.ViewModels;
+package com.example.mvvm_practica.viewModels;
 
 import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;
