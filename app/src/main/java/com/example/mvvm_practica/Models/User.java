@@ -4,9 +4,9 @@ public class User {
 
     private String nombre;
     private String Correo;
-    private int edad;
+    private String edad;
 
-    public User(String nombre, String correo, int edad) {
+    public User(String nombre, String correo, String edad) {
         this.nombre = nombre;
         Correo = correo;
         this.edad = edad;
@@ -20,7 +20,7 @@ public class User {
         Correo = correo;
     }
 
-    public void setEdad(int edad) {
+    public void setEdad(String edad) {
         this.edad = edad;
     }
 
@@ -32,7 +32,7 @@ public class User {
         return Correo;
     }
 
-    public int getEdad() {
+    public String getEdad() {
         return edad;
     }
 }
