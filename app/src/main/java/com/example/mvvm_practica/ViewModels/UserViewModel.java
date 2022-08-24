@@ -11,7 +11,7 @@ public class UserViewModel extends BaseObservable {
     private User user;
 
     public UserViewModel(){
-        user = new User("","","");
+        user = new User("Hector","H12@","25");
     }
     public void setUserNombre(String name){
         user.setNombre(name);
@@ -32,4 +32,8 @@ public class UserViewModel extends BaseObservable {
     public String getUserCorreo() {return user.getCorreo();}
     @Bindable
     public String getUserEdad() {return user.getEdad();}
+
+    public void onclicbutton(){
+        setUserNombre("Juan");
+    }
 }
